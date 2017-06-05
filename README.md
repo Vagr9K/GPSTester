@@ -18,5 +18,7 @@ export AUTOPUSH=true
 * Run `build.sh`.
 * By default copy gps-test menually to your device or use `AUTOPUSH` setting in `build_config.local` to do that automatically after compilation.
 
+* Use `adb shell /data/data/gps-test` to get the output. You can also execute the program from any terminal inside Android.
+
 
 NOTE: Inspired by ["Android GPS using libhardware"](https://gist.github.com/kanru/1568934).
