@@ -1,0 +1,6 @@
+# Ignore generated folders
+libs
+obj
+# Ignore local configs
+build_config.local
+
