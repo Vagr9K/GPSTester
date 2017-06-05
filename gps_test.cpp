@@ -112,7 +112,7 @@ static void nmea_callback(GpsUtcTime timestamp, const char* nmea, int length)
   fprintf(stdout, "@@@ NMEA_STATUS_CALLBACK\n");
   fprintf(stdout, "@@@@ nmea info\n");
   fprintf(stdout, "@@@@ timestamp:\t%ld\n", (long)timestamp);
-  fprintf(stdout, "@@@@ nmea:     \t%s\n", nmea);
+  fprintf(stdout, "@@@@ nmea:     \t%s", nmea);
   fprintf(stdout, "@@@@ length:   \t%d\n", length);
 }
 
